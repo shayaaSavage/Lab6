@@ -1,0 +1,1 @@
+LD_LIBRARY_PATH=$(pwd)/lib  ./client --k 22 --mod 119 --servers address
