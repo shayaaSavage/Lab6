@@ -177,7 +177,7 @@ int main(int argc, char **argv) {
     }
     uint64_t serv_answer = 0;   
     memcpy(&serv_answer, response, sizeof(uint64_t));
-    printf("serv_answer %lu\n", serv_answer);
+    printf("server %s:%d answer is %lu\n", to[i].ip ,to[i].port, serv_answer);
     answer = MultModulo(answer, serv_answer, mod);
     close(sck_arr[i]);
   }

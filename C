@@ -1,1 +1,1 @@
-LD_LIBRARY_PATH=$(pwd)/lib  ./client --k 22 --mod 119 --servers address
+LD_LIBRARY_PATH=$(pwd)/lib  ./client --k 2--mod 7 --servers address
